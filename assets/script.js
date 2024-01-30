@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     fetch('https://public-api.birdeye.so/public/price?address=4yt66dkPkrZYMhmAHQnM7gKjAGBTXn1YkMco998i8pSk', options)
         .then(response => response.json())
         .then(response => {
-            if(response.date) {
+            if(response.data) {
                 const price = response.data.value;
                 document.getElementById('tokenPrice').innerText = price.toFixed(8);
             }else {
