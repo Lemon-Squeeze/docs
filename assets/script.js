@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         .then(response => {
             if(response.data) {
                 const price = response.data.value;
-                document.getElementById('tokenPrice').innerText = price.toFixed(8);
+                document.getElementById('tokenPrice').innerText = price.toFixed(8)+' $';
             }else {
                 document.getElementById('tokenPrice').innerText = "---";
             }
