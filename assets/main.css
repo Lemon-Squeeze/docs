@@ -68,7 +68,7 @@ body {
     background: linear-gradient(135deg, rgba(251,250,49,1) 0%, rgba(0,212,133,1) 33%, rgba(49,120,212,1) 66%, rgba(139,50,152,1) 100%);
     color: #333;
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
     position: relative;
     overflow: hidden;
 }
@@ -109,6 +109,23 @@ body {
     margin: 0 10px;
     color: #fff;
     font-weight: bold;
+}
+
+.token-price-section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.token-price-section h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.token-price-section p {
+    font-size: 3rem;
+    color: #666;
+    margin: 0;
 }
 
 .footer {
